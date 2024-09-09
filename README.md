@@ -6,6 +6,7 @@ and manage changes in illuminance across the part’s surface. The goal is to ac
 light distribution using model-predictive control techniques, ensuring consistency in
 brightness across all images.
 ![image](https://github.com/user-attachments/assets/bc55c659-2e9f-491e-8659-a3774741458c)
+
 The process of training the model involved the collection of diverse data sets using Blender,
 a 3D rendering tool. This included capturing images before and after altering light intensities,
 alongside obtaining depth and normal maps from the camera. These maps provided
@@ -14,6 +15,7 @@ in understanding the spatial layout, while normal maps offered insights into sur
 This comprehensive data collection was essential for the model to learn the relationship
 between changes in LED intensity, depth, normals, and the resulting illuminance
 delta maps, thus ensuring the training of an effective and robust model.
+
 ![image](https://github.com/user-attachments/assets/10df9ce7-c4b0-405d-9546-766d336d2cee)
 
 ## Result
